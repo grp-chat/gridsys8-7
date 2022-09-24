@@ -231,8 +231,8 @@ class GridSystem {
             "area4": this.cdm.area4
         }     
 
-        this.extraArr = ["TCR", "LXR", "LK", "JHA", "JV", "JL", "SZF", "H", "TJY", "KX"];
-        //this.extraArr = ["TCR", "JX", "JZ", "TWN", "LJY", "LSH", "ELI", "CUR", "RYD", "CT"];
+        //this.extraArr = ["TCR", "LXR", "LK", "JHA", "JV", "JL", "SZF", "H", "TJY", "KX"];
+        this.extraArr = ["TCR", "JX", "JZ", "TWN", "LJY", "LSH", "ELI", "CUR", "RYD", "CT"];
 
         this.p1 = { x: 25, y: 11, lable: 2, id: this.extraArr[0], steps: 0, area: "mainArea", wallet: 0, total: 0, storeSteps: 1000 };
 
