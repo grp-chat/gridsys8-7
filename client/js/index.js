@@ -51,7 +51,7 @@ const promptMsg = () => {
         sun230pmStudent3: {pinNumber:'7051', nickname: "KN"},
         sun230pmStudent4: {pinNumber:'4162', nickname: "JT"},
         sun230pmStudent5: {pinNumber:'2105', nickname: "CJH"},
-        sun230pmStudent6: {pinNumber:'1529', nickname: "LSH"},
+        sun230pmStudent6: {pinNumber:'5086', nickname: "CED"},
         sun230pmStudent7: {pinNumber:'2167', nickname: "KX"},
         sun230pmStudent8: {pinNumber:'6588', nickname: "TJY"}
     }
@@ -375,8 +375,8 @@ function appendMessage(message) {
 }
 
 //studentsArr = ["TCR", "LXR", "LK", "JHA", "JV", "JL", "SZF", "H", "TJY", "KX"];
-studentsArr = ["TCR", "JX", "JZ", "TWN", "LJY", "LSH", "ELI", "CUR", "RYD", "CT"];
-//studentsArr = ["TCR", "LOK", "KSY", "KN", "JT", "CJH", "LSH", "KX", "TJY", "LEN"];
+//studentsArr = ["TCR", "JX", "JZ", "TWN", "LJY", "LSH", "ELI", "CUR", "RYD", "CT"];
+studentsArr = ["TCR", "LOK", "KSY", "KN", "JT", "CJH", "CED", "KX", "TJY", "LSH"];
 elementsArr = [];
 
 studentsArr.forEach((student) => {
@@ -422,8 +422,10 @@ class GridSystemClient {
         this.cellSize = 27;
         this.padding = 2;
         //this.students = ["TCR", "LXR", "LK", "JHA", "JV", "JL", "SZF", "H", "TJY", "KX"];
-        this.students = ["TCR", "JX", "JZ", "TWN", "LJY", "LSH", "ELI", "CUR", "RYD", "CT"];
+        //this.students = ["TCR", "JX", "JZ", "TWN", "LJY", "LSH", "ELI", "CUR", "RYD", "CT"];
+        this.students = ["TCR", "LOK", "KSY", "KN", "JT", "CJH", "CED", "KX", "TJY", "LSH"];
         
+
         this.cdm = {
             area1: [{}],
             area2: [{}], 
